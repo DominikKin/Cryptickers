@@ -1,0 +1,7 @@
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: auto;
+  color: rgb(255, 255, 255);
+}

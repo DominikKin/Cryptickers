@@ -1,0 +1,55 @@
+.leftPanel,
+.leftPanelHidden {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1c1c3b;
+  width: 420px;
+  border-radius: 0 50px 50px 0;
+  -webkit-box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+  opacity: 0.95;
+}
+.leftPanel {
+  left: 0;
+}
+.leftPanelHidden {
+  left: -382px;
+}
+
+.expandButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background-color: #c72e6b;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.expandButton:hover {
+  background-color: #fc2479;
+}
+.expandIcon {
+  transform: rotate(0deg);
+}
+.expandIconRev {
+  transform: rotate(180deg);
+}
+.leftPanel h2,
+.leftPanelHidden h2 {
+  font-size: 3rem;
+  color: rgb(39, 157, 255);
+}

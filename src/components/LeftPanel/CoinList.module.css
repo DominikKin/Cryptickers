@@ -1,0 +1,46 @@
+.coinList {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 2rem;
+}
+.coinListBtn,
+.coinListBtnSelected {
+  width: 300px;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid rgb(39, 157, 255);
+  color: rgb(39, 157, 255);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.coinListBtn:hover,
+.coinListBtnSelected {
+  color: #fff;
+  background: rgb(39, 157, 255);
+  border: 2px solid rgb(39, 157, 255);
+}
+.coinListBtn:active {
+  color: #fff;
+  background: rgb(115, 192, 255);
+  border: 2px solid rgb(115, 192, 255);
+}
+
+.coinList::-webkit-scrollbar {
+  width: 10px;
+}
+.coinList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.coinList::-webkit-scrollbar-thumb {
+  height: 10px;
+  background: rgb(39, 157, 255);
+  border-radius: 10px;
+}

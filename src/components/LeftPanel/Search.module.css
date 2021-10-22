@@ -1,0 +1,19 @@
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  width: 100%;
+}
+.input,
+.input:active {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  margin: 1rem 4rem 0 2rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid rgb(39, 157, 255);
+  outline: none;
+  color: rgb(39, 157, 255);
+}

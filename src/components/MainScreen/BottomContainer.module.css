@@ -1,0 +1,16 @@
+.bottomContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  color: rgb(170, 170, 170);
+  background-color: #1c1c3b;
+  border-radius: 20px;
+}
+
+@media (max-height: 800px) {
+  .bottomContainer {
+    display: none;
+  }
+}

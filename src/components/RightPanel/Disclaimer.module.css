@@ -1,0 +1,27 @@
+.disclaimerContainer {
+  padding: 1rem;
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+.disclaimerButton {
+  width: 300px;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid rgb(39, 157, 255);
+  color: rgb(39, 157, 255);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.disclaimerText {
+  max-height: 400px;
+  transition: max-height 0.5s ease-out;
+}
+.disclaimerTextHidden {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in;
+}

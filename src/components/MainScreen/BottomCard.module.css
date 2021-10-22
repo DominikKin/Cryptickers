@@ -1,0 +1,21 @@
+.bottomCard {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottomCard h3 {
+  font-size: 1rem;
+}
+.price,
+.priceDrop {
+  font-size: 0.9rem;
+}
+
+.price {
+  color: rgb(0, 204, 85);
+}
+.priceDrop {
+  color: rgb(216, 0, 72);
+}
