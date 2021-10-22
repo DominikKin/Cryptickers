@@ -9,7 +9,7 @@
   border-radius: 20px;
 }
 
-@media (max-height: 800px) {
+@media (max-height: 670px) {
   .bottomContainer {
     display: none;
   }
