@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Watch live demo here:
+https://www.cryptickers.com/
+
+This is a cryptocurrency dashboard. Unfold left panel to find more coins.
+
 ## Available Scripts
 
 In the project directory, you can run:
